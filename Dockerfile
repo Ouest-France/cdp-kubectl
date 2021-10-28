@@ -1,6 +1,6 @@
-FROM alpine:3.11.3
+FROM alpine:3.13.6
 
-ARG KUBE_VERSION="v1.17.2"
+ARG KUBE_VERSION="v1.21.5"
 
 ADD https://storage.googleapis.com/kubernetes-release/release/${KUBE_VERSION}/bin/linux/amd64/kubectl /bin/kubectl
 
